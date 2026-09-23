@@ -1,0 +1,44 @@
+{
+  "metrics": {
+    "total": 25,
+    "action_cases": 18,
+    "block_rate": 1.0,
+    "pass_cases": 7,
+    "false_positive_rate": 0.0,
+    "per_stage_latency_ms": {
+      "pii": 0.606,
+      "prompt_injection": 0.044,
+      "toxicity": 0.01,
+      "length_policy": 0.002,
+      "refusal_consistency": 0.007,
+      "hallucination_heuristic": 0.007
+    },
+    "per_stage_verdicts": {
+      "pii": {
+        "pass": 30,
+        "block": 5,
+        "redact": 2
+      },
+      "prompt_injection": {
+        "pass": 15,
+        "block": 5
+      },
+      "toxicity": {
+        "pass": 13,
+        "block": 2
+      },
+      "length_policy": {
+        "pass": 12,
+        "block": 1
+      },
+      "refusal_consistency": {
+        "pass": 10,
+        "block": 2
+      },
+      "hallucination_heuristic": {
+        "pass": 9,
+        "block": 1
+      }
+    }
+  }
+}
